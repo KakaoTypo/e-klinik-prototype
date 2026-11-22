@@ -35,7 +35,7 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 - **`mo-overview.html` / `doctor-overview.html`** — Medical Officer and Doctor views for appointment handling, patient medical history, diagnosis updates, and MC issuance.
 - **`admin-archive.html`** — Clinic Admin views for system overview, inventory alerts, and graduation record archiving.
 - **`style.css` & `script.js`** — Master stylesheet and frontend UI interactivity.
-- **`ERD_CSC584_GROUP 2_ELITE.pdf`** — Entity Relationship Diagram (ERD) detailing the database schema (`STUDENT`, `MEDICAL_OFFICER`, `CLINIC_ADMIN`, `APPOINTMENT`, `CONSULTATION`, `MEDICINE_CERTIFICATE`, `PRESCRIPTION`, `MEDICINE`).
+- **`ERD_CSC584_GROUP 2_ELITE.pdf`** — Entity Relationship Diagram (ERD) detailing the database schema (`STUDENT`, `MEDICAL_OFFICER`, `DOCTOR`, `APPOINTMENT`, `CONSULTATION`, `MEDICINE_CERTIFICATE`, `PRESCRIPTION`, `MEDICINE`).
 
 ---
 
