@@ -4,7 +4,7 @@
 **Group:** Group 2 (ELITE)  
 **Deliverable:** Phase 1 - Project Storyboard & Database ERD (Week 9)
 
-##Project Overview
+## Project Overview
 **E-Klinik Siswa** is a web-based patient management system designed for the campus health center to streamline medical appointments, queue estimation, patient medical history tracking, diagnosis & medical leave (MC) updates, and student graduation record archiving.
 
 The system supports role-based access for **Students**, **Medical Officers (MO)** and **Clinic Admins**.
@@ -29,7 +29,7 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 * **Daily Waiting Times:** Displays average daily patient waiting durations.
 * **Inventory Alerts:** Highlights low-stock medications requiring restocking by Clinic Admins.
 
-## 4. Repository Contents (Storyboard & ERD)
+### 4. Repository Contents (Storyboard & ERD)
 
 * **`login.html` & `auth.js`** — Portal login interface supporting role selection (`Student`, `Medical Officer`, `Clinic Admin`).
 * **`student-overview.html`** — Main student portal & dashboard overview.
