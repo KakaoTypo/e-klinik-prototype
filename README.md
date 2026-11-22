@@ -38,3 +38,33 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 * **`style.css` & `script.js`** — Master stylesheet and frontend UI interactivity.
 * **`ERD_CSC584_GROUP 2_ELITE.pdf`** — Entity Relationship Diagram (ERD) detailing the database schema (`STUDENT`, `MEDICAL_OFFICER`, `CLINIC_ADMIN`, `APPOINTMENT`, `CONSULTATION`, `MEDICINE_CERTIFICATE`, `PRESCRIPTION`, `MEDICINE`).
 
+* ## Storyboard UI Preview
+
+### 1. Authentication (Login & Registration)
+| Login Portal | User Registration |
+| :---: | :---: |
+| ![Login Page](SCREENSHOT%20OUTPUT/login.JPG) | ![Register Page](SCREENSHOT%20OUTPUT/register.JPG) |
+
+### 2. Student Portal
+| Student Overview | Appointments | Patient History |
+| :---: | :---: | :---: |
+| ![Student Overview](SCREENSHOT%20OUTPUT/student-overview.JPG) | ![Student Appointments](SCREENSHOT%20OUTPUT/student-appointments.JPG) | ![Student History](SCREENSHOT%20OUTPUT/student-history.JPG) |
+
+| Medical Leave (MC) | Graduation Archive |
+| :---: | :---: |
+| ![Student MC](SCREENSHOT%20OUTPUT/student-mc.JPG) | ![Student Archive](SCREENSHOT%20OUTPUT/student-archive.JPG) |
+
+### 3. Medical Officer (MO) & Doctor Portal
+| MO Overview | MO Appointments | MO History | MO Medical Leave |
+| :---: | :---: | :---: | :---: |
+| ![MO Overview](SCREENSHOT%20OUTPUT/mo-overview.JPG) | ![MO Appointments](SCREENSHOT%20OUTPUT/mo-appointments.JPG) | ![MO History](SCREENSHOT%20OUTPUT/mo-history.JPG) | ![MO MC](SCREENSHOT%20OUTPUT/mo-mc.JPG) |
+
+| Doctor Overview | Doctor Appointments | Doctor History | Doctor MC | Doctor Archive |
+| :---: | :---: | :---: | :---: | :---: |
+| ![Doctor Overview](SCREENSHOT%20OUTPUT/doctor-overview.JPG) | ![Doctor Appointments](SCREENSHOT%20OUTPUT/doctor-appointments.JPG) | ![Doctor History](SCREENSHOT%20OUTPUT/doctor-history.JPG) | ![Doctor MC](SCREENSHOT%20OUTPUT/doctor-mc.JPG) | ![Doctor Archive](SCREENSHOT%20OUTPUT/doctor-archive.JPG) |
+
+### 4. Clinic Admin Portal
+| Graduation Archive |
+| :---: |
+| ![Admin Archive](SCREENSHOT%20OUTPUT/admin-archive.JPG) |
+
