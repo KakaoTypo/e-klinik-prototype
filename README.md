@@ -54,7 +54,7 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 | :---: | :---: |
 | ![Student MC](SCREENSHOT%20OUTPUT/student-mc.JPG) | ![Student Archive](SCREENSHOT%20OUTPUT/student-archive.JPG) |
 
-### 3. Medical Officer (MO) & Doctor Portal
+### 3. Medical Officer (MO) / Nurse Portal
 | MO Overview | MO Appointments | MO History | MO Medical Leave |
 | :---: | :---: | :---: | :---: |
 | ![MO Overview](SCREENSHOT%20OUTPUT/mo-overview.JPG) | ![MO Appointments](SCREENSHOT%20OUTPUT/mo-appointments.JPG) | ![MO History](SCREENSHOT%20OUTPUT/mo-history.JPG) | ![MO MC](SCREENSHOT%20OUTPUT/mo-mc.JPG) |
