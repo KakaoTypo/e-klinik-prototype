@@ -28,9 +28,8 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 * **Trends of Common Illnesses:** Visualizes common health trends on campus (e.g., seasonal flu spikes).
 * **Daily Waiting Times:** Displays average daily patient waiting durations.
 * **Inventory Alerts:** Highlights low-stock medications requiring restocking by Clinic Admins.
-## Group Members & Module Distribution
 
-## Repository Contents (Storyboard & ERD)
+## 4. Repository Contents (Storyboard & ERD)
 
 * **`login.html` & `auth.js`** — Portal login interface supporting role selection (`Student`, `Medical Officer`, `Clinic Admin`).
 * **`student-overview.html`** — Main student portal & dashboard overview.
