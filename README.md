@@ -54,17 +54,12 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 | :---: | :---: |
 | ![Student MC](SCREENSHOT%20OUTPUT/student-mc.JPG) | ![Student Archive](SCREENSHOT%20OUTPUT/student-archive.JPG) |
 
-### 3. Medical Officer (MO) / Nurse Portal
-| MO Overview | MO Appointments | MO History | MO Medical Leave |
-| :---: | :---: | :---: | :---: |
-| ![MO Overview](SCREENSHOT%20OUTPUT/mo-overview.JPG) | ![MO Appointments](SCREENSHOT%20OUTPUT/mo-appointments.JPG) | ![MO History](SCREENSHOT%20OUTPUT/mo-history.JPG) | ![MO MC](SCREENSHOT%20OUTPUT/mo-mc.JPG) |
-
+### 3. Doctor Portal
 | Doctor Overview | Doctor Appointments | Doctor History | Doctor MC | Doctor Archive |
 | :---: | :---: | :---: | :---: | :---: |
 | ![Doctor Overview](SCREENSHOT%20OUTPUT/doctor-overview.JPG) | ![Doctor Appointments](SCREENSHOT%20OUTPUT/doctor-appointments.JPG) | ![Doctor History](SCREENSHOT%20OUTPUT/doctor-history.JPG) | ![Doctor MC](SCREENSHOT%20OUTPUT/doctor-mc.JPG) | ![Doctor Archive](SCREENSHOT%20OUTPUT/doctor-archive.JPG) |
 
-### 4. Clinic Admin Portal
-| Graduation Archive |
-| :---: |
-| ![Admin Archive](SCREENSHOT%20OUTPUT/admin-archive.JPG) |
-
+### 4. Medical Officer (MO) / Nurse / Admin Portal
+| MO Overview | MO Appointments | MO History | MO Medical Leave |
+| :---: | :---: | :---: | :---: | :---: |
+| ![MO Overview](SCREENSHOT%20OUTPUT/mo-overview.JPG) | ![MO Appointments](SCREENSHOT%20OUTPUT/mo-appointments.JPG) | ![MO History](SCREENSHOT%20OUTPUT/mo-history.JPG) | ![MO MC](SCREENSHOT%20OUTPUT/mo-mc.JPG) | ![Graduation Archive](SCREENSHOT%20OUTPUT/admin-archive.JPG) |
