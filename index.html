@@ -2,74 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Klinik Siswa - Dashboard</title>
+    <title>Login - E-Klinik Siswa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <div class="brand">
-                <div class="logo-box">
-                  <img src="clinic_siswa.png" alt="Clinic Logo">
-                </div>
-                <div class="brand-title">
-                    <h1 id="app-title">E-Klinik Siswa</h1>
-                    <p>Campus Health & Medical Leave</p>
-                </div>
-            </div>
-            <div class="role-switcher">
-                <span>Roles:</span>
-                <div class="roles">
-                    <button class="role-btn active" onclick="switchRole('Student')">Student</button>
-                    <button class="role-btn" onclick="switchRole('Medical Officer')">Medical Officer</button>
-                    <button class="role-btn" onclick="switchRole('Clinic Admin')">Clinic Admin</button>
-                </div>
+    <div class="container auth-wrapper">
+        <header style="justify-content: center;">
+            <div class="brand-title" style="text-align: center;">
+                <h1>E-Klinik Siswa</h1>
+                <p>Campus Health Portal Login</p>
             </div>
         </header>
-
-        <!-- Navigation Tabs -->
-        <nav id="nav-tabs">
-            <a class="nav-item active" onclick="switchTab(this, 'Overview')">Overview</a>
-            <a class="nav-item" onclick="switchTab(this, 'Appointments')">Appointments</a>
-            <a class="nav-item" onclick="switchTab(this, 'Patient History')">Patient History</a>
-            <a class="nav-item" onclick="switchTab(this, 'Medical Leave')">Medical Leave</a>
-            <a class="nav-item" onclick="switchTab(this, 'Graduation Archive')">Graduation Archive</a>
-        </nav>
-
-        <!-- Content Area -->
         <div class="content">
-            <div class="banner">
-                <h2 id="banner-title">Privacy and safety first</h2>
-                <p id="banner-desc">Show only the minimum necessary information. This demo uses fictional sample context only; emergencies require local emergency services, not this system.</p>
-            </div>
-
-            <div class="section-title" id="main-section-title">Campus care at a glance</div>
-            <div class="section-desc" id="main-section-desc">A focused view of saved appointment and medical-leave workflow records.</div>
-
-            <div class="grid" id="cards-grid">
-                <div class="card">
-                    <h3>Upcoming appointments</h3>
-                    <div class="value">1 (Tomorrow)</div>
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label>Username / ID Number</label>
+                    <input type="text" id="username" required placeholder="e.g. 2023881204 / MO-102">
                 </div>
-                <div class="card">
-                    <h3>Pending requests</h3>
-                    <div class="value">0</div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="password" required placeholder="********">
                 </div>
-                <div class="card">
-                    <h3>Active leave cases</h3>
-                    <div class="value">1</div>
+                <div class="form-group">
+                    <label>Select Role Portal</label>
+                    <select id="role-select">
+                        <option value="student">Student Patient</option>
+                        <option value="mo">Medical Officer / Clinic Admin</option>
+                        <option value="doctor">Senior Doctor (Specialist & Review)</option>
+                    </select>
                 </div>
-                <div class="card">
-                    <h3>Archived records</h3>
-                    <div class="value">4</div>
-                </div>
-            </div>
+                <button type="submit" style="width: 100%; margin-top: 10px;">Sign In</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px; font-size: 0.85rem;">
+                Don't have an account? <a href="register.html" style="color: var(--accent);">Register here</a>
+            </p>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        function handleLogin(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const role = document.getElementById('role-select').value;
+            
+            localStorage.setItem('currentUser', username);
+            localStorage.setItem('currentRole', role);
+
+            if (role === 'student') window.location.href = 'student-overview.html';
+            else if (role === 'mo') window.location.href = 'mo-overview.html';
+            else window.location.href = 'doctor-overview.html';
+        }
+    </script>
 </body>
 </html>
