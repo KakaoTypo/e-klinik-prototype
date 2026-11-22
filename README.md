@@ -14,10 +14,10 @@ The system supports role-based access for **Students**, **Medical Officers (MO)*
 ### 1. Role-Based CRUD Operations
 * **Student:**
   * **Create:** Book new doctor appointments and check walk-in queue waiting times.
-* **Medical Officer (MO):**
+* **Medical Officer (MO)/ Doctor:**
   * **Read:** View patient medical histories prior to consultation.
   * **Update:** Update patient diagnoses and issue Medical Certificates (MC).
-* **Clinic Admin:**
+* **Clinic Admin/ Nurse:**
   * **Delete / Archive:** Delete or archive graduated student records from active clinic records.
 
 ### 2. Business Logic (Walk-In Queue Estimation)
